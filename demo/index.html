@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Line Chart Web component Example</title>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/series-label.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/modules/export-data.js"></script>
+    <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+</head>
+
+<body>
+    <div id="demo">
+
+    </div>
+    <script type="module">
+        import { html, render } from 'lit-html';
+        import '../src/line-chart.js';
+
+
+        render(
+            html`
+            <line-chart-webcomponent></line-chart-webcomponent>
+          `,
+            document.querySelector('#demo')
+        );
+    </script>
+</body>
+
+</html>
