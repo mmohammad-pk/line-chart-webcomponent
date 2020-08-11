@@ -1,6 +1,6 @@
 {
   "name": "line-chart-webcomponent",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Highcharts Line chart Web component",
   "main": "index.js",
   "scripts": {
