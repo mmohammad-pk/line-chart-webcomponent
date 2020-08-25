@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/mmohammad-pk/line-chart-webcomponent#readme",
   "dependencies": {
+    "@material/mwc-select": "^0.18.0",
     "lit-element": "^2.3.1",
     "lit-html": "^1.2.1"
   },
